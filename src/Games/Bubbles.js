@@ -79,6 +79,7 @@ function Bubbles() {
         fill={oppositeTextColor()}
         opacity={0.8}
         onClick={enterFullscreen}
+        onTap={enterFullscreen}
       />
       <Text
         x={112}
@@ -87,6 +88,7 @@ function Bubbles() {
         fill={oppositeTextColor()}
         opacity={0.8}
         onClick={toggleBackground}
+        onTap={toggleBackground}
       />
     </>
   )
